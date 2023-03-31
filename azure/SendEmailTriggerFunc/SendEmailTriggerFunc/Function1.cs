@@ -10,7 +10,7 @@ namespace SendEmailTriggerFunc
     public class Function1
     {
         [FunctionName("Function1")]
-        public void Run([BlobTrigger("samples-workitems/{name}", Connection = "DefaultEndpointsProtocol=https;AccountName=cloudblobstorageaccount;AccountKey=SOYSK3WhVgqu03g9ycrCBhfY5cZZV2qCl+8y3UW8Q0boDH0EFyUULhTC5nOvPjZGaN6gO3xBNaXb+AStTYFGgA==;EndpointSuffix=core.windows.net")]Stream myBlob, string name, ILogger log)
+        public void Run([BlobTrigger("samples-workitems/{name}", Connection = "BLOB ACCOUNT STORAGE CONNECTION STRING")]Stream myBlob, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob | Name:{name} | Size: {myBlob.Length} Bytes");
 
