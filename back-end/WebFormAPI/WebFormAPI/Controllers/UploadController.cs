@@ -36,7 +36,7 @@ namespace WebFormAPI.Controllers
 
                 try
                 {
-                    var blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=cloudblobstorageaccount;AccountKey=SOYSK3WhVgqu03g9ycrCBhfY5cZZV2qCl+8y3UW8Q0boDH0EFyUULhTC5nOvPjZGaN6gO3xBNaXb+AStTYFGgA==;EndpointSuffix=core.windows.net";
+                    var blobConnectionString = "BLOB ACCOUNT STORAGE CONNECTION STRING";
                     var blobStorageContainerName = "samples-workitems";
 
                     var blobContainer = new BlobContainerClient(blobConnectionString, blobStorageContainerName);
