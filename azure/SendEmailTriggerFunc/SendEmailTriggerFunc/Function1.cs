@@ -16,10 +16,10 @@ namespace SendEmailTriggerFunc
 
             try
             {
-                var client = new SendGridClient("SG.rEBsnDQeQhaLXeWBLDp3yw.LB8VpQBt1mEDBtYTLfGGO8JfB2aa_ljpb5MAL9DB9LM");
-                var from = new EmailAddress("yurabogomolov2004@gmail.com", "Site administration");
+                var client = new SendGridClient("SENDGRID_API_KEY");
+                var from = new EmailAddress("EMAIL FROM SEND", "Site administration");
                 var subject = "Blob notification";
-                var to = new EmailAddress("yuriibogomolov2004@gmail.com", "Recipient Name");
+                var to = new EmailAddress("EMAIL TO REPLY", "Recipient Name");
                 var body = $"Data successfully uploaded to the cloud Azure!";
                 var message = MailHelper.CreateSingleEmail(from, to, subject, body, "");
                 var response = client.SendEmailAsync(message).Result;
