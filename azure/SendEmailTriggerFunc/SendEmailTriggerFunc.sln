@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailTriggerFunc", "SendEmailTriggerFunc\SendEmailTriggerFunc.csproj", "{85019082-4EC9-43EB-BD27-0FB11D82B28B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85019082-4EC9-43EB-BD27-0FB11D82B28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85019082-4EC9-43EB-BD27-0FB11D82B28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85019082-4EC9-43EB-BD27-0FB11D82B28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85019082-4EC9-43EB-BD27-0FB11D82B28B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D569B18-C469-4F42-89F7-30EE5CA70550}
+	EndGlobalSection
+EndGlobal
